@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title description">
+  <title id="title">Inteligência artificial — Mente Digital</title>
+  <desc id="description">Núcleo luminoso de inteligência artificial cercado por órbitas e conexões sobre fundo azul tecnológico.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b2d52"/>
+      <stop offset=".58" stop-color="#145b8b"/>
+      <stop offset="1" stop-color="#267bb8"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#a6e1ff" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#a6e1ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx=".35" cy=".28">
+      <stop stop-color="#fff"/>
+      <stop offset=".42" stop-color="#d9f3ff"/>
+      <stop offset="1" stop-color="#83c9ee"/>
+    </radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#dcf1ff" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="soft-glow" x="-.6" y="-.6" width="2.2" height="2.2">
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="480" rx="32" fill="url(#background)"/>
+  <rect width="640" height="480" rx="32" fill="url(#glow)"/>
+  <rect width="640" height="480" rx="32" fill="url(#grid)" opacity=".8"/>
+  <g fill="none" stroke="#d2efff" stroke-opacity=".4">
+    <circle cx="320" cy="228" r="103"/>
+    <ellipse cx="320" cy="228" rx="148" ry="75" transform="rotate(-32 320 228)"/>
+    <ellipse cx="320" cy="228" rx="148" ry="75" transform="rotate(32 320 228)"/>
+  </g>
+  <g fill="#8dd9ff" stroke="#e8f7ff" stroke-width="3" filter="url(#soft-glow)">
+    <circle cx="421" cy="128" r="7"/>
+    <circle cx="399" cy="325" r="7"/>
+    <circle cx="214" cy="194" r="7"/>
+  </g>
+  <circle cx="320" cy="228" r="66" fill="url(#core)" stroke="#fff" stroke-opacity=".9" stroke-width="2" filter="url(#soft-glow)"/>
+  <text x="320" y="232" fill="#08264a" font-family="Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-4" text-anchor="middle">IA</text>
+  <text x="320" y="258" fill="#123b63" font-family="Arial, sans-serif" font-size="10" font-weight="700" letter-spacing="2" text-anchor="middle">MENTE DIGITAL</text>
+  <g fill="#e4f5ff" font-family="Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">
+    <rect x="76" y="90" width="112" height="34" rx="17" fill="#072545" fill-opacity=".52" stroke="#dff3ff" stroke-opacity=".3"/>
+    <text x="132" y="112" text-anchor="middle">APRENDE</text>
+    <rect x="448" y="196" width="132" height="34" rx="17" fill="#072545" fill-opacity=".52" stroke="#dff3ff" stroke-opacity=".3"/>
+    <text x="514" y="218" text-anchor="middle">RECONHECE</text>
+    <rect x="99" y="348" width="112" height="34" rx="17" fill="#072545" fill-opacity=".52" stroke="#dff3ff" stroke-opacity=".3"/>
+    <text x="155" y="370" text-anchor="middle">CONECTA</text>
+  </g>
+</svg>

@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Entre em contato com o projeto Mente Digital para enviar dúvidas, sugestões ou comentários.">
+  <title>Mente Digital | Contato</title>
+  <link rel="icon" type="image/jpeg" href="img/logo%20(2).jpeg">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="site-frame">
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html" aria-label="Mente Digital, página inicial"><img class="brand-logo" src="img/logo (2).jpeg" alt="Mente Digital"></a>
+        <nav class="main-nav" aria-label="Navegação principal">
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="bi bi-house-door" aria-hidden="true"></i>Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="sobre.html"><i class="bi bi-info-circle" aria-hidden="true"></i>Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="aplicacoes.html"><i class="bi bi-grid" aria-hidden="true"></i>Exemplos</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#voce-sabia"><i class="bi bi-lightbulb" aria-hidden="true"></i>Você sabia?</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contato.html" aria-current="page"><i class="bi bi-envelope" aria-hidden="true"></i>Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" class="container contact-content">
+      <div class="section-intro">
+        <h1 class="section-title" id="titulo-contato">Fale Conosco</h1>
+        <p class="section-subtitle">Tem alguma dúvida ou sugestão? Preencha o formulário para preparar uma mensagem no seu aplicativo de e-mail.</p>
+      </div>
+      <div class="row g-4 g-lg-5 align-items-stretch">
+        <div class="col-12 col-lg-7">
+          <section class="contact-form-panel" aria-labelledby="titulo-formulario">
+            <h2 id="titulo-formulario" class="contact-panel-title">Envie sua mensagem</h2>
+            <form action="mailto:henriquepedro18367@gmail.com?subject=Contato%20pelo%20site" method="post" enctype="text/plain">
+              <div class="mb-4">
+                <label class="form-label" for="nome">Nome</label>
+                <input class="form-control" id="nome" name="nome" type="text" autocomplete="name" placeholder="Seu nome" required>
+              </div>
+              <div class="mb-4">
+                <label class="form-label" for="email">E-mail</label>
+                <input class="form-control" id="email" name="email" type="email" autocomplete="email" placeholder="seu@email.com" required>
+              </div>
+              <div class="mb-4">
+                <label class="form-label" for="assunto">Assunto</label>
+                <select class="form-select" id="assunto" name="assunto" required>
+                  <option value="" selected disabled>Selecione o motivo do contato</option>
+                  <option value="Duvida">Dúvida</option>
+                  <option value="Sugestao">Sugestão</option>
+                  <option value="Comentario">Comentário</option>
+                  <option value="Outro">Outro assunto</option>
+                </select>
+              </div>
+              <div class="mb-4">
+                <label class="form-label" for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+              </div>
+              <button class="btn submit-button" type="submit">Preparar e-mail <i class="bi bi-arrow-right" aria-hidden="true"></i></button>
+              <p class="form-note">O botão abre o aplicativo de e-mail configurado no seu dispositivo. O site não armazena nem envia mensagens por conta própria.</p>
+            </form>
+          </section>
+        </div>
+        <div class="col-12 col-lg-5">
+          <aside class="contact-info-panel">
+            <h2 class="contact-panel-title">Informações de contato</h2>
+            <div class="contact-info-cards">
+              <article class="card contact-info-card">
+                <div class="card-body">
+                  <span class="contact-card-label">E-MAIL</span>
+                  <h3 class="card-title">Fale diretamente</h3>
+                  <a class="contact-card-link" href="mailto:henriquepedro18367@gmail.com">henriquepedro18367@gmail.com</a>
+                </div>
+              </article>
+              <article class="card contact-info-card">
+                <div class="card-body">
+                  <span class="contact-card-label">REDES SOCIAIS</span>
+                  <h3 class="card-title">Perfis oficiais</h3>
+                  <p class="card-text">Nenhum perfil de rede social foi informado para este projeto.</p>
+                </div>
+              </article>
+              <article class="card contact-info-card">
+                <div class="card-body">
+                  <span class="contact-card-label">SOBRE O PROJETO</span>
+                  <h3 class="card-title">Mente Digital</h3>
+                  <p class="card-text">Projeto educativo sobre inteligência artificial e suas aplicações no cotidiano.</p>
+                  <a class="contact-card-link" href="sobre.html">Conheça o projeto <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+                </div>
+              </article>
+            </div>
+          </aside>
+        </div>
+      </div>
+
+      <section class="faq-section" aria-labelledby="titulo-faq">
+        <div class="faq-heading">
+          <p class="eyebrow eyebrow-dark">Dúvidas comuns</p>
+          <h2 id="titulo-faq" class="section-title">Perguntas frequentes</h2>
+          <p class="section-subtitle">Respostas rápidas para entender melhor a inteligência artificial.</p>
+        </div>
+        <div class="faq-list">
+          <details class="card faq-item">
+            <summary class="card-header">O que é inteligência artificial?</summary>
+            <div class="card-body">
+              <p class="card-text">É um conjunto de tecnologias que permite a sistemas realizar tarefas como reconhecer padrões, processar linguagem e gerar previsões a partir de dados.</p>
+            </div>
+          </details>
+          <details class="card faq-item">
+            <summary class="card-header">A IA pode substituir pessoas?</summary>
+            <div class="card-body">
+              <p class="card-text">A IA pode automatizar algumas tarefas e transformar profissões, mas não substitui capacidades humanas como contexto, empatia e responsabilidade. Seus efeitos variam conforme o trabalho e a forma como é utilizada.</p>
+            </div>
+          </details>
+          <details class="card faq-item">
+            <summary class="card-header">A IA é confiável?</summary>
+            <div class="card-body">
+              <p class="card-text">Nem sempre. Sistemas de IA podem errar, refletir preconceitos ou apresentar informações falsas. Verifique dados importantes em fontes confiáveis e não compartilhe informações pessoais sem necessidade.</p>
+            </div>
+          </details>
+          <details class="card faq-item">
+            <summary class="card-header">Como posso aprender mais sobre IA?</summary>
+            <div class="card-body">
+              <p class="card-text">Explore as páginas <a href="sobre.html">Sobre</a> e <a href="aplicacoes.html">Exemplos</a> deste projeto e procure materiais educativos de universidades, bibliotecas e instituições de pesquisa.</p>
+            </div>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-main">
+          <a class="footer-brand" href="index.html">Mente Digital</a>
+          <p>Um projeto educativo para entender a inteligência artificial no cotidiano.</p>
+        </div>
+        <nav class="footer-nav" aria-label="Navegação do rodapé">
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="aplicacoes.html">Exemplos</a>
+          <a href="contato.html" aria-current="page">Contato</a>
+        </nav>
+        <p class="footer-legal">© 2026 Mente Digital. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
